@@ -1,0 +1,55 @@
+
+@keyframes color-change {
+    0% {
+      color: rgb(0, 255, 55);
+    }
+  
+    50% {
+      color: rgb(255, 145, 0);
+    }
+  
+    100% {
+      color: rgb(0, 255, 55);
+    }
+}
+
+html {
+  background: rgb(51, 51, 51);
+}
+
+body {
+    font-family: 'Inter'; /* Семейство шрифтов */
+    font-size: 24px; /* Размер основного шрифта в <p></p>  */
+    background-color: rbg(51, 51, 51); /* Цвет фона веб-страницы */
+    color: #FD98FB; /* Цвет основного текста */ 
+}
+marquee {
+    animation: color-change 3s infinite;
+    color: rgb(0, 255, 55); /* Цвет заголовка */
+    font-size: 48px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+}
+h2 {
+    color: #D6FF6B; /* Цвет заголовка */
+    font-size: 32px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+    text-align: center;
+    
+}
+ul {
+    color: #FFFFFF; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+}
+
+.yandex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yt {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
